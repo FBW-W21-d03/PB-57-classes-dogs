@@ -5,7 +5,11 @@ class Hund {
     this.alter = alter;
   }
   bellen() {
-    console.log("Wuff! Wuff! Miau... äh... Wuff!");
+    //   Eigentliche Lösung
+    // console.log("Wuff! Wuff! Wuff!");
+
+    // Zusatz: Bellen und Name
+    console.log(this.name + " bellt... Wuff! Wuff! Wuff!");
   }
 }
 
