@@ -26,3 +26,7 @@ Schreibe dazu eine Funktion ohne Parameter, die folgenden Text in die Konsole sc
 Teste die Methode mit allen Hunden.
 
 Kann jeder deiner Hunde bellen?
+
+
+
+Hier ein paar Hundenamen :Mila , Amy , Amira, Buddy,Spike , Coco, Gelato, Santos,Rocky,Luna Hunderassen : Amercian Bully , German Shepard , Collie , Doberman , Rottweiler , Pinscher , Boxer , Pit Pull, Husky 
