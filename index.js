@@ -1,6 +1,6 @@
-class Hunde {
-  constructor(hundeName, rasse, alter) {
-    this.hundeName = hundeName;
+class Hund {
+  constructor(hundName, rasse, alter) {
+    this.hundName = hundName;
     this.rasse = rasse;
     this.alter = alter;
   }
@@ -8,7 +8,7 @@ class Hunde {
     console.log("Wuff Wuff Wuff");
   }
 };
-let hunde = new Hunde("Tommie", "Französische_Bulldogge", "3 Monat" );
+let hund = new Hund("Tommie", "Französische_Bulldogge", "3 Monat" );
 
 console.log(hunde);
-hunde.bellen();
+hund.bellen();
