@@ -14,8 +14,9 @@ let hund_1 = new Hunde ("Max","Haski",3);
 let hund_2 = new Hunde ("Bella","havaneser",5);
 let hund_3 = new Hunde ( "Alx","Haare rasse",2);
 // 3 )
-const hunde = [hund_1,hund_2,hund_3];
-console.log(hunde);
+const alleHunde = [];
+let hunde =alleHunde.push(hund_1,hund_2,hund_3)
+console.log(alleHunde);
 hund_1.HundBellen();
 hund_2.HundBellen();
 hund_3.HundBellen();
