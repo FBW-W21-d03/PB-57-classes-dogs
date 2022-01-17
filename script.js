@@ -14,3 +14,6 @@ class hund {
 
   const hunde = [hund1, hund2, hund3];
   console.log(hunde);
+hund1.bellen();
+hund2.bellen();
+hund3.bellen();
