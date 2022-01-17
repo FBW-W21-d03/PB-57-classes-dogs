@@ -13,6 +13,9 @@ class Hunde{
     this.HundRasse = rasse;
     this.HundAlter = alt;
 }
+HundBellen(){
+    console.log("Wuff! Wuff! Wuff!");
+}
 }
 // ## Aufgabenstellung - Teil 2
 // Verwende nun deine Klasse, um mindestens drei Objekte zu erzeugen.
@@ -25,18 +28,23 @@ let hund_3 = new Hunde("Ric", "Chihuahua",2);
 
 // ## Aufgabenstellung - Teil 3
 // Erweitere deine Klasse nun um eine Funktion.
-hund_1.impfung("Ja");
+//hund_1.impfung("Ja");
 // Ein Hund soll bellen können.
-hund_2.bellen(true);
+//hund_2.bellen(true);
 // Schreibe dazu eine Funktion ohne Parameter, die folgenden Text in die Konsole schreibt.
-if (Hunde == bellen){
-    console.log("Wuff! Wuff! Wuff!");
-} else {
-    console.log("Hunden sind ruhig");
-}
+// if (Hunde == bellen){
+//     console.log("Wuff! Wuff! Wuff!");
+// } else {
+//     console.log("Hunden sind ruhig");
+// }
 // "Wuff! Wuff! Wuff!"
-
+hund_1.HundBellen();
 // ## Aufgabenstellung - Teil 4
 // Teste die Methode mit allen Hunden.
-
+console.log(hund_1);
+console.log(hund_2);
+console.log(hund_3);
 // Kann jeder deiner Hunde bellen?
+hund_1.HundBellen();
+hund_2.HundBellen();
+hund_3.HundBellen();
